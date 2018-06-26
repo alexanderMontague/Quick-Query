@@ -1,9 +1,29 @@
 # Quick-Query
-A census and crime data query engine
+![Imgur](https://i.imgur.com/QF2YAQl.png)
 
-Final project for CIS2250 software design at The University of Guelph. This query engine was developed by Alexander Montague, Ahmed Mahmoud, and Josua Prpic. The query engine gives information based on Canadian crime data from the years 1998 to 2015 and Canadian census data from the years 2001, 2006, and 2011. All scripts called and run were created with perl, and graphing was done by R.
+A Census and Crime Data Query Engine
 
-Run by cloning the repository to a directory on your machine
-Navigate to the repository in terminal
-Execute 'perl queryEngine.pl'
-This is the main run script and will call all other scripts automatically
+Created by: Alex Montague, Ahmed Mahmoud and Joshua Prpic
+
+Final Project for UofG CIS2250
+
+
+### About
+* This program allows you to make single or cross queries about Canadaian Crime Data (Years 1998-2015) and Canadian Census Data (Years 2001, 2006, 2011)
+* Displays the results in multiple data formats including graphs
+* Lets you see correlation between census data and crime statistics
+* Press enter at any input to see the full list of options/statistics
+
+
+### Examples
+* Simple Multiyear Crime Query
+![Imgur](https://i.imgur.com/bMBKBCI.png)
+![Imgur](https://i.imgur.com/SqIb1Hi.png)
+
+* Cross Referenced Multi Crime Query
+![Imgur](https://i.imgur.com/1scL4Es.png)
+![Imgur](https://i.imgur.com/ELb0pOG.png)
+
+* Cross Referenced Census and Crime Query for One Year
+![Imgur](https://i.imgur.com/I2vRGn3.png)
+![Imgur](https://i.imgur.com/pkIJrtm.png)
