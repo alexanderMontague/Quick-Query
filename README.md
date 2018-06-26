@@ -27,3 +27,16 @@ Final Project for UofG CIS2250
 * Cross Referenced Census and Crime Query for One Year
 ![Imgur](https://i.imgur.com/I2vRGn3.png)
 ![Imgur](https://i.imgur.com/pkIJrtm.png)
+
+
+### Usage (Unix Based Systems)
+* (Install Perl and libtext csv `sudo apt-get install libtext-csv-perl`)
+* Clone Repository `git clone https://github.com/alexanderMontague/Quick-Query/`
+* Navigate into Directory `cd Quick-Query`
+* Run Program `perl queryEnginer.pl`
+* ##### FOR GRAPHING RUN BELOW:
+* Install R `sudo apt install r-cran-littler`
+* Install Statistics::R `sudo  perl -MCPAN -e 'install Statistics::R'`
+* Run R `R`
+* Install ggPlot2 while in R environment`install.packages("ggplot2")`
+* Should be good to Run!
